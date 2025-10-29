@@ -1,14 +1,22 @@
-/*  your css code here. If applicable */
-table{
-	border: 1px solid black;
-	background-color: yellow;
-}
-th,tr,td{
-	border: 1px solid black;
-}
-caption {
+table {
+      background: yellow;
+      border: 2px solid black;
+      margin: 20px auto;
+    }
+    caption {
       caption-side: top;
-      font-size: 1.3em;
+      font-size: 2em;
+      font-family: Times, serif;
+      font-weight: normal;
+      margin-bottom: 5px;
+    }
+    th, td {
+      border: 2px solid black;
+      padding: 8px 20px;
+      text-align: left;
+      font-family: Times, serif;
+      font-size: 1.5em;
+    }
+    th {
       font-weight: bold;
-      margin-bottom: 8px;
-}
+    }
