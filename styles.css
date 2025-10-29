@@ -1,14 +1,10 @@
-table {
-      background: yellow;
+table, th, td {
       border: 1px solid black;
+      background-color: yellow;
       
     }
-    
-    th, td {
-      border: 1px solid black;
-       
-    }
-    th {
+    caption {
       font-weight: bold;
-	  border: 1px solid black;
+      font-size: 15px;
+      margin-bottom: px;
     }
