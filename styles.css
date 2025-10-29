@@ -1,22 +1,14 @@
 table {
       background: yellow;
-      border: 2px solid black;
-      margin: 20px auto;
+      border: 1px solid black;
+      
     }
-    caption {
-      caption-side: top;
-      font-size: 2em;
-      font-family: Times, serif;
-      font-weight: normal;
-      margin-bottom: 5px;
-    }
+    
     th, td {
-      border: 2px solid black;
-      padding: 8px 20px;
-      text-align: left;
-      font-family: Times, serif;
-      font-size: 1.5em;
+      border: 1px solid black;
+       
     }
     th {
       font-weight: bold;
+	  border: 1px solid black;
     }
